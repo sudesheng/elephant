@@ -1,0 +1,510 @@
+body,h2,h4,h5,ul,ol,p {
+	margin: 0;
+	padding: 0;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+ol {
+	list-style: outside none none;
+}
+
+
+/*头部开始*/
+
+#header {
+	width: 100%;
+	height: 100vh;
+	min-width: 1200px;
+	background: url(../img/ba.png);
+	position: relative;
+}
+
+#header .center {
+	width: 1400px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+#header .logobox {
+	width: 271px;
+	height: 48px;
+	float: left;
+	margin-top: 12px;
+	background: url(../img/logo.png);
+}
+
+#header .link {
+	width: 800px;
+	height: 70px;
+	float: right;
+	line-height: 70px;
+	color: #fff;
+}
+
+#header .link li {
+	float: left;
+	margin-left: 40px;
+	list-style: none;
+}
+
+.login {
+	width: 82px;
+	height: 30px;
+	margin-top: 15px;
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 15px;
+}
+
+.register {
+	width: 82px;
+	height: 30px;
+	margin-top: 15px;
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 15px;
+}
+
+#header .link a {
+	color: white;
+	text-decoration: none;
+}
+
+#header .title {
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	margin: 300px auto;
+}
+
+#header .title h1 {
+	color: white;
+	font-size: 40px;
+}
+
+#header .title h3 {
+	display: inline-block;
+	width: 270px;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: rgb(0, 160, 333);
+}
+
+
+/*头部结束*/
+
+
+/*导航开始*/
+
+#header2 {
+	width: 100%;
+	height: 100px;
+	min-width: 1400px;
+	position: relative;
+	box-shadow: 0px 2px 2px gainsboro;
+}
+
+.logobox2 {
+	width: 271px;
+	height: 48px;
+	float: left;
+	margin-top: 24px;
+	margin-left: 50px;
+	background: url(../img/logo2.png) no-repeat;
+}
+
+#header2 .link {
+	width: 800px;
+	height: 100px;
+	float: right;
+	line-height: 100px;
+}
+
+#header2 .link li {
+	float: left;
+	margin-left: 25px;
+	list-style: none;
+}
+
+#header2 .link a {
+	text-decoration: none;
+	color: gray;
+}
+
+#header2 .link .register a {
+	color: ghostwhite;
+}
+
+#header2 .look a {
+	text-decoration: none;
+	color: rgb(0, 160, 333);
+}
+
+#header2 .register {
+	width: 70px;
+	height: 30px;
+	margin-top: 35px;
+	border: 1px solid dimgray;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 15px;
+	background-color: rgb(0, 160, 333);
+}
+
+#header2 .login {
+	width: 70px;
+	height: 30px;
+	margin-top: 35px;
+	border: 1px solid dimgray;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 15px;
+}
+
+.new {
+	width: 80px;
+	height: 20px;
+	background-color: rgb( 0, 160, 333);
+	padding: 2px 10px 2px 10px;
+	border-radius: 5px;
+	margin-right: 8px;
+}
+
+#header2 p {
+	text-align: center;
+	line-height: 100px;
+}
+
+.look {
+	color: rgb(0, 160, 333);
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+
+/*导航结束*/
+
+
+/*展示开始*/
+
+#exhibition {
+	width: 100%;
+	height: 905px;
+	background: url(../img/shou.png) no-repeat center;
+}
+
+
+/*展示结束*/
+
+
+/*功能开始*/
+
+#function {
+	width: 100%;
+	text-align: center;
+	min-width: 1263px;
+}
+
+#function figure {
+	width: 192px;
+	margin: 133px 10px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+
+#function figcaption {
+	line-height: 30px;
+}
+
+#function figcaption li {
+	list-style: none;
+}
+
+#function .more {
+	width: 301px;
+	height: 74px;
+	border: 1px solid rgb(0, 160, 333);
+	margin: 0 auto 139px;
+	text-align: center;
+	line-height: 74px;
+	border-radius: 10px;
+}
+
+#function .more a {
+	text-decoration: none;
+	font-size: 29px;
+	color: rgb(0, 160, 333);
+}
+
+
+/*功能结束*/
+
+
+/*方案开始*/
+
+#way {
+	width: 100%;
+	height: 711px;
+	min-width: 1263px;
+	text-align: center;
+	background-color: rgb(239, 239, 240);
+}
+
+#way .way_top {
+	width: 100%;
+	height: 249px;
+	text-align: center;
+}
+
+#way .way_top h3 {
+	padding-top: 100px;
+	color: darkgrey;
+}
+
+#way .way_top h1 {
+	color: #696969;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+#way figure {
+	width: 203px;
+	margin: 107px 20px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+
+#way figcaption {}
+
+
+/*方案结束*/
+
+
+/*优势开始*/
+
+#advantage {
+	text-align: center;
+	width: 100%;
+	height: 1121px;
+	min-width: 1263px;
+	position: relative;
+}
+
+#advantage .ad_box {
+	width: 825px;
+	height: 521px;
+	margin: 0 auto;
+	background: url(../img/advantage.png);
+}
+
+#advantage .ad_moreway {
+	width: 301px;
+	height: 74px;
+	border: 1px solid rgb(0, 160, 333);
+	margin: 140px auto 0px;
+	text-align: center;
+	line-height: 74px;
+	border-radius: 10px;
+}
+
+#advantage .ad_moreway a {
+	text-decoration: none;
+	font-size: 29px;
+	color: rgb(0, 160, 333);
+}
+
+#advantage .ad_coperation {
+	width: 1197px;
+	height: 182px;
+	margin: 135px auto 20px;
+	border: 1px solid white;
+}
+
+
+/*方案结束*/
+
+
+/*合作伙伴开始*/
+
+.ad_coperation .friend {
+	float: left;
+	border-bottom: 2px solid rgb(0, 160, 333);
+	padding-bottom: 10px;
+}
+
+.ad_coperation .botton {
+	width: 70px;
+	height: 29px;
+	float: right;
+}
+
+.botton .right_img {
+	float: right;
+}
+
+.botton .left_img {
+	float: left;
+}
+
+.banne {
+	width: 174px;
+	height: 97px;
+	margin: 37px 0 0 18px;
+	display: inline-block;
+	position: relative;
+}
+
+.banne1 {
+	width: 174px;
+	height: 97px;
+	margin: 37px 0 0 0;
+	display: inline-block;
+	position: relative;
+}
+
+#use {
+	width: 100%;
+	height: 350px;
+	text-align: center;
+	min-width: 1263px;
+	background-color: rgb(0, 160, 333);
+}
+
+#use .use_title {
+	color: white;
+	padding-top: 100px;
+}
+
+#use .use_title a {
+	display: inline-block;
+	width: 173px;
+	height: 41px;
+	line-height: 41px;
+	margin-top: 20px;
+	padding: 5px 25px;
+	border-radius: 15px;
+	background-color: rgb(0, 112, 163);
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+
+/*合作伙伴开始*/
+
+
+/*底部开始*/
+
+#foot {
+	width: 100%;
+	height: 323px;
+	min-width: 1263px;
+	background-color: rgb(249, 249, 249);
+	position: relative;
+	text-align: center;
+	margin: 0;
+}
+
+#foot .foot_center {
+	width: 1134px;
+	height: 181px;
+	padding: 66px 0;
+	margin: 0 auto;
+}
+
+#foot .foot_center .logo3 {
+	float: left;
+}
+
+.foot_center figcaption {
+	margin-left: 30px;
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+
+.foot_center figcaption ul {
+	margin-top: 10px;
+}
+
+.foot_center li {
+	list-style: none;
+	line-height: 30px;
+}
+
+.foot_center .right {
+	position: relative;
+	text-align: left;
+	float: right;
+	width: 363px;
+	height: 72px;
+}
+
+.input {
+	width: 172px;
+	height: 30px;
+	padding-left: 20px;
+	position: absolute;
+	left: -5px;
+	top: 25px;
+	border: 1px solid #DCDCDC;
+	border-radius: 15px 0 0 15px;
+}
+
+.button {
+	width: 156px;
+	height: 34px;
+	position: absolute;
+	right: 40px;
+	top: 25px;
+	background-color: rgb(0, 160, 333);
+	border: 1px solid #DCDCDC;
+	border-radius: 0 15px 15px 0;
+	color: white;
+}
+
+.bottom {
+	width: 100%;
+	height: 77px;
+	min-width: 1263px;
+	text-align: center;
+}
+
+.bottom_left {
+	float: left;
+	margin-left: 190px;
+	margin-top: 30px;
+}
+
+.bottom_right {
+	float: right;
+	margin-top: 30px;
+	margin-right: 120px;
+}
+
+.bottom_right li {
+	list-style: none;
+	float: right;
+	margin-right: 20px;
+}
+
+.fixednav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+}
